@@ -91,5 +91,7 @@ public abstract class TogglePreferenceController extends BasePreferenceControlle
     }
 
     @Override
-    public abstract int getSliceHighlightMenuRes();
+    public int getSliceHighlightMenuRes() {
+        return NO_RES;
+    }
 }
